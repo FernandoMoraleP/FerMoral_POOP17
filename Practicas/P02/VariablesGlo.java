@@ -9,7 +9,7 @@ public class VariablesGlo{
 	static boolean var7;
 	static String var8;
 
-	public static void main(String[] args){
+	public static void main(String[] args){			
 
 		
 		System.out.println("byte var = "+ var1);
