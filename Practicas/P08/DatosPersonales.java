@@ -7,7 +7,7 @@ public class DatosPersonales {
 		return nombre;
 	}
 
-	public void setNombre(Strig nom){
+	public void setNombre(String nom){
 		nombre = nom;
 	}
 
