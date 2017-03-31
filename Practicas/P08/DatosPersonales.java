@@ -1,9 +1,9 @@
 public class DatosPersonales {
 
-	private Strig nombre;
+	private String nombre;
 	private int edad;
 
-	public Strig getNombre(){
+	public String getNombre(){
 		return nombre;
 	}
 
@@ -11,7 +11,7 @@ public class DatosPersonales {
 		nombre = nom;
 	}
 
-	public Strig getEdad(){
+	public int getEdad(){
 		return nombre;
 	}
 
