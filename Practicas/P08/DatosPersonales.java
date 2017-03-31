@@ -12,7 +12,7 @@ public class DatosPersonales {
 	}
 
 	public int getEdad(){
-		return nombre;
+		return edad;
 	}
 
 	public void setEdad (int ed){
