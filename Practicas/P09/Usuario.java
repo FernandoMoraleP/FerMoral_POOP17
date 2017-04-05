@@ -54,4 +54,13 @@ public class Usuario {
 		return fechaNacimiento;
 	}
 
+	public String toString() {
+		return "\n  El nombre es: \n\t" + nombre
+		+ "  \n  El nickname es: \n\t" + nickname
+		+ "  \n  La direccion es: \n\t" + direccion
+		+ "  \n  El mail es: \n\t" + mail
+		+ "  \n  El numero telefonico es: \n\t" + telefono
+		+ "  \n  La fecha de nacimiento es: \n\t" + fechaNacimiento;
+	}
+
 }
