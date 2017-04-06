@@ -20,6 +20,9 @@ public class UsuarioTest {
 			System.out.println("  Ingrese el nickname de usuario: ");
 			usuarios.setNickname(reader.leeString());
 
+			System.out.println("  Ingrese la contrasenia de usuario: ");
+			usuarios.setContrasenia(reader.leeString());
+
 			System.out.println("  Ingrese la direccion de usuario: ");
 			usuarios.setDireccion(reader.leeString());
 

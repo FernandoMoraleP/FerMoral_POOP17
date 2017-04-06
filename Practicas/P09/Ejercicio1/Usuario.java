@@ -1,6 +1,7 @@
 public class Usuario {
 	private String nombre;
 	private String nickname;
+    private String contrasenia;
 	private String direccion;
 	private String mail;
 	private Long telefono;
@@ -24,6 +25,14 @@ public class Usuario {
 
     public void setNickname(String inickname) {
     	nickname = inickname;
+    }
+
+    public String getContrasenia() {
+        return contrasenia;
+    }
+
+    public void setContrasenia(String icontrasenia) {
+        contrasenia = icontrasenia;
     }
 
     public String getDireccion() {
@@ -57,6 +66,7 @@ public class Usuario {
 	public String toString() {
 		return "\n  El nombre es: \n\t" + nombre
 		+ "  \n  El nickname es: \n\t" + nickname
+        + "  \n  La contrasenia es: \n\t" + contrasenia
 		+ "  \n  La direccion es: \n\t" + direccion
 		+ "  \n  El mail es: \n\t" + mail
 		+ "  \n  El numero telefonico es: \n\t" + telefono
